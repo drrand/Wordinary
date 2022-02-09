@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+Body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #323232;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.titleSection {
+    max-height: 300;
+    position: fixed;
+    top: 30px;
+    width: 100%
+}
+
+.titleSection h1 {
+    background-color: #FFD382;
+    width: 70%;
+    margin: auto;
+    height: 2.5rem;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.title-shadow {
+    background-color: #D4C09B;
+    width: 70%;
+    margin: auto;
+    height: 2.5rem;
+    position: relative;
+    bottom: 2rem;
+    left: .3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    z-index: -1;
+}
+
+.button {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.button h2 {
+    background-color: #AEF5A4;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #4f4f4f;
+}
+
+//Box formatting//
+.titleSection h1, .title-shadow {
+    border-color: #323232;
+    border-width: 2px;
+}
