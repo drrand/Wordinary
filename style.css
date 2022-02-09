@@ -41,13 +41,18 @@ h1 {
     z-index: -1;
 }
 
-.button {
+.randomWord h1 {
+    background-color: inherit;
+
+}
+
+.button, .next-button {
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-.button h2 {
+.button h2, .next-button h2 {
     background-color: #AEF5A4;
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -63,4 +68,15 @@ h1 {
 .titleSection h1, .title-shadow {
     border-color: #323232;
     border-width: 2px;
+}
+
+//links//
+
+.button a {
+    color: #323232;
+    text-decoration: none;
+}
+
+.next-button {
+    cursor: pointer;
 }
