@@ -46,6 +46,10 @@ h1 {
 
 }
 
+.button {
+    cursor: pointer;
+}
+
 .button, .next-button {
     width: 50%;
     margin: auto;
@@ -78,5 +82,17 @@ h1 {
 }
 
 .next-button {
-    cursor: pointer;
+    
+}
+
+.divstack {
+    display: flex;
+}
+
+.topdiv {
+
+}
+
+.bottomdiv {
+
 }

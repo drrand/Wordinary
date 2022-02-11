@@ -1,7 +1,7 @@
 
-var wordList = [dog, cat, school, hamburger, movie]
+var wordList = ['lazer gun','watermelon', 'telekenesis', 'pool party', 'dog', 'cat', 'school', 'hamburger', 'movie']
 
-var button = document.getElementById('button');
+
 
 function shuffle(wordList) {
     let currentIndex = wordList.length,  randomIndex;
@@ -18,7 +18,7 @@ function shuffle(wordList) {
         wordList[randomIndex], wordList[currentIndex]];
     }
   
-    return awordList;
+    return wordList;
   }
 
 function newWord() {
@@ -31,4 +31,26 @@ function newWord() {
     return;
 };
 
-button.addEventListener(onclick, newWord(), false);
+var buttonPush = document.getElementById('button');
+/*buttonPush.addEventListener('click', newWord, false); */
+/*document.getElementById('button').addEventListener('click',function() {
+alert("I'm an alert!")}, false); */
+
+console.log(document.getElementById('button').innerHTML);
+
+newWord();
+
+var i = 0 //i is the number of times the button has been pushed
+
+function changeWord() {
+document.getElementById('word').innerHTML = (wordList[0+i]);
+
+if (i === 0) {
+  document.getElementById('button').innerHTML = "<h2>Next Word!</h2>";
+}
+
+return i += 1;
+
+};
+
+document.getElementById('button').addEventListener('click', changeWord, false);
