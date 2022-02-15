@@ -63,21 +63,18 @@ h1 {
     padding-bottom: .5rem;
 }
 
-//Box formatting//
+/* Box formatting */
+
 .titleSection h1, .title-shadow {
     border-color: #323232;
     border-width: 2px;
 }
 
-//links//
+/* links */
 
 .button a {
     color: #323232;
     text-decoration: none;
-}
-
-.next-button {
-    
 }
 
 
