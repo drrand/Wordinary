@@ -5,6 +5,7 @@
 Body {
     font-family: 'Courier New', Courier, monospace;
     color: #323232;
+    background-color: #323232;
 }
 
 h1 {
@@ -62,12 +63,6 @@ h1 {
     padding-bottom: .5rem;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-    background-color: #4f4f4f;
-}
-
 //Box formatting//
 .titleSection h1, .title-shadow {
     border-color: #323232;
@@ -85,14 +80,17 @@ h1 {
     
 }
 
+
 .divstack {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20%, 20%, 20%, 20%, 20%;
 }
 
 .topdiv {
-
+   grid-row-start: 2;
 }
 
 .bottomdiv {
-
+   grid-row-start: 4;
 }
