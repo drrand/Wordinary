@@ -5,7 +5,7 @@
 Body {
     font-family: 'Courier New', Courier, monospace;
     color: #323232;
-    background-color: #323232;
+    background-color: #252424;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 }
 
 .titleSection h1 {
-    background-color: #f1eaa3;
+    background-color: #f1a8a3;
     width: 70%;
     margin: auto;
     height: 3.5rem;
@@ -30,16 +30,16 @@ h1 {
 }
 
 .title-shadow {
-    background-color: #d6d32c;
+    background-color: #f8f55a;
     width: 70%;
     margin: auto;
     height: 3.5rem;
     position: relative;
-    bottom: 2.5rem;
-    left: .5rem;
+    bottom: 3.3rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     z-index: -1;
+    transform: rotate(-9deg)
 }
 
 .randomWord h1 {
@@ -86,10 +86,14 @@ h1 {
 
 .topdiv {
    grid-row-start: 1;
+   position: relative;
+   top: 25%;
 }
 
 .bottomdiv {
    grid-row-start: 5;
+   position: relative;
+   bottom: 15%;
 }
 
 #reset {
