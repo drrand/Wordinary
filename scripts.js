@@ -54,3 +54,11 @@ return i += 1;
 };
 
 document.getElementById('button').addEventListener('click', changeWord, false);
+
+function reset() {
+  document.getElementById('button').innerHTML = "<h2>1st Word!</h2>";
+  document.getElementById('word').innerHTML = "Wordinary!"
+  return i = 0;
+}
+
+document.getElementById('reset').addEventListener('click', reset, false);

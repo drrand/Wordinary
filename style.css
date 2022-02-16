@@ -13,8 +13,7 @@ h1 {
 }
 
 .titleSection {
-    max-height: 600px;
-    min-height: 400px;
+    height: 100%;
     position: fixed;
     top: 30px;
     width: 100%
@@ -86,9 +85,20 @@ h1 {
 }
 
 .topdiv {
-   grid-row-start: 2;
+   grid-row-start: 1;
 }
 
 .bottomdiv {
-   grid-row-start: 4;
+   grid-row-start: 5;
+}
+
+#reset {
+    text-align: center;
+    grid-row-start: 4;
+    height: 2.6rem;
+    width: 2.6rem;
+    margin: auto;
+    background-color: #f1eaa3;
+    padding: .5rem;
+    color:#323232;
 }
