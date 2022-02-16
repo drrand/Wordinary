@@ -13,30 +13,31 @@ h1 {
 }
 
 .titleSection {
-    max-height: 300;
+    max-height: 600px;
+    min-height: 400px;
     position: fixed;
     top: 30px;
     width: 100%
 }
 
 .titleSection h1 {
-    background-color: #FFD382;
+    background-color: #f1eaa3;
     width: 70%;
     margin: auto;
-    height: 2.5rem;
+    height: 3.5rem;
     text-align: center;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
 
 .title-shadow {
-    background-color: #D4C09B;
+    background-color: #d6d32c;
     width: 70%;
     margin: auto;
-    height: 2.5rem;
+    height: 3.5rem;
     position: relative;
-    bottom: 2rem;
-    left: .3rem;
+    bottom: 2.5rem;
+    left: .5rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     z-index: -1;
