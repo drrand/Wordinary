@@ -62,3 +62,7 @@ function reset() {
 }
 
 document.getElementById('reset').addEventListener('click', reset, false);
+
+function newCard () {
+  
+}
