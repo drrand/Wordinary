@@ -106,3 +106,12 @@ h1 {
     padding: .5rem;
     color:#323232;
 }
+
+#link {
+    background-color: #f8f55a;
+    border-radius: 32px;
+    position: absolute;
+    top: 1rem;
+    left: 8rem;
+    text-align: center;
+}
